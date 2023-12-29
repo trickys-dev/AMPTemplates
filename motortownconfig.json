@@ -1,9 +1,9 @@
 [
     {
-        "DisplayName": "Server Name test",
+        "DisplayName": "Server Name",
         "Category": "Server Settings",
         "Description": "The name displayed in server browser",
-        "Keywords": "server,name,test",
+        "Keywords": "server,name",
         "FieldName": "ServerName",
         "InputType": "text",
         "IsFlagArgument": false,
