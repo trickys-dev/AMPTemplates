@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:tricky-motortown.kvp
 Meta.DisplayName=Tricky Motortown
 Meta.Description=motortown server
 Meta.Arch=x86_64
@@ -83,3 +84,5 @@ App.UpdateSources=@IncludeJson[tricky-motortownupdates.json]
 Errors=
 isValid=true
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+========
+>>>>>>>> c8ebdab030f1844657ca67e74c3ef9db834f06f5:motortown.kvp
