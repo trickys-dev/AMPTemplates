@@ -1,9 +1,10 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee2",
-	"authors": ["Tricky's Server", "shark"],
-	"origin": "https://github.com/trickys-dev/AMPTemplates.git",
-	"url": "https://github.com/trickys-dev/AMPTemplates",
-	"imagefile": "",
-	"prefix": "",
-	"repotype": "AppTemplates"
+    "id": "8301fd92-3324-4568-aa19-e62ec8b4d9aa",
+    "authors": [
+        "shark-has-crash - Made with AMP Config Generator"
+    ],
+    "origin": "https://github.com/shark-has-crash - Made with AMP Config Generator/AMPTemplates.git",
+    "url": "https://github.com/shark-has-crash - Made with AMP Config Generator/AMPTemplates",
+    "imagefile": "",
+    "prefix": "shark-has-crash - Made with AMP Config Generator"
 }
