@@ -1,5 +1,4 @@
-<<<<<<<< HEAD:tricky-motortown.kvp
-Meta.DisplayName=Tricky Motortown
+Meta.DisplayName=Motortown
 Meta.Description=motortown server
 Meta.Arch=x86_64
 Meta.Author=shark-has-crash - Made with AMP Config Generator
@@ -14,7 +13,7 @@ Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQuery
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=false
-App.DisplayName=Tricky Motortown
+App.DisplayName=Motortown
 App.CommandLineArgs={{$PlatformArgs}} Jeju_World?listen? -server -log -useperfthreads -port=${{ApplicationPort1}} {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
@@ -69,20 +68,18 @@ Console.UserJoinRegex=^$
 Console.UserLeaveRegex=^$
 Console.UserChatRegex=^$
 Meta.OS=1
-Meta.ConfigManifest=tricky-motortownconfig.json
-Meta.MetaConfigManifest=tricky-motortownmetaconfig.json
-Meta.ConfigRoot=tricky-motortown.kvp
-App.RootDir=./tricky-motortown/
+Meta.ConfigManifest=motortownconfig.json
+Meta.MetaConfigManifest=motortownmetaconfig.json
+Meta.ConfigRoot=motortown.kvp
+App.RootDir=./motortown/
 Meta.DisplayImageSource=steam:1369670
-App.BaseDirectory=./tricky-motortown/1369670/
+App.BaseDirectory=./motortown/1369670/
 App.WorkingDir=1369670
 App.ExecutableWin=1369670\MotorTown\Binaries\Win64\MotorTownServer-Win64-Shipping.exe
 App.ExecutableLinux=1369670/
 App.LinuxCommandLineArgs=
-App.Ports=@IncludeJson[tricky-motortownports.json]
-App.UpdateSources=@IncludeJson[tricky-motortownupdates.json]
+App.Ports=@IncludeJson[motortownports.json]
+App.UpdateSources=@IncludeJson[motortownupdates.json]
 Errors=
 isValid=true
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
-========
->>>>>>>> c8ebdab030f1844657ca67e74c3ef9db834f06f5:motortown.kvp
