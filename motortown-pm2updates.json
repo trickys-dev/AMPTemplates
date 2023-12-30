@@ -15,8 +15,9 @@
         "UpdateStageName": "",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CopyFilePath",
-        "UpdateSourceData": "./motortown-pm2/2223650/DedicatedServerConfig.json",
+        "UpdateSourceData": "./motortown-pm2/2223650/",
         "UpdateSourceArgs": "./motortown-pm2/2223650/DedicatedServerConfig_Sample.json",
+        "UpdateSourceTarget": "DedicatedServerConfig.json",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
@@ -27,10 +28,10 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/trickys-dev/AMPTemplates/raw/main/MT-AMP.zip",
-        "UpdateSourceTarget": "./motortown-pm2/2223650/app/MT-AMP.zip",
-        "UnzipUpdateSource": true,
+        "UpdateSourceTarget": "MT-AMP.zip",
+        "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "OneShot": false
     }
 ]
