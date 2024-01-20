@@ -76,5 +76,14 @@
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UpdateSourceArgs":"ServerConfig.toml",
         "OverwriteExistingFiles":false
+    },
+    {
+        "UpdateStageName":"Config File Download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://raw.githubusercontent.com/trickys-dev/AMPTemplates/main/beammpstart.bat",
+        "UpdateSourceTarget":"{{$FullBaseDir}}",
+        "UpdateSourceArgs":"start.bat",
+        "OverwriteExistingFiles":false
     }
 ]
