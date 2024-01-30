@@ -50,7 +50,8 @@ wildlife_enabled="true"
 fish_spawn_rate="2" 
 unlock_components="false" 
 dlc_weapons="false" 
-dlc_arid="false">
+dlc_arid="false"
+dlc_space="false" >
 	<admins>
 		<id value=""/>
 	</admins>
@@ -61,30 +62,10 @@ dlc_arid="false">
 	<whitelist>
     </whitelist>
 	<playlists>
-		<path path="rom/data/missions/default_ai"/>
-		<path path="rom/data/missions/default_ai_aircraft"/>
-		<path path="rom/data/missions/default_cargo"/>
 		<path path="rom/data/missions/default_dock_bollards"/>
 		<path path="rom/data/missions/default_elevators"/>
-		<path path="rom/data/missions/default_forest_fire_missions"/>
 		<path path="rom/data/missions/default_resource_storage"/>
-		<path path="rom/data/missions/default_mission_locations"/>
-		<path path="rom/data/missions/default_mission_transport_locations"/>
-		<path path="rom/data/missions/default_mission_zones_arctic"/>
-		<path path="rom/data/missions/default_mission_zones_building"/>
-		<path path="rom/data/missions/default_mission_zones_delivery"/>
-		<path path="rom/data/missions/default_mission_zones_main"/>
-		<path path="rom/data/missions/default_mission_zones_sawyer"/>
-		<path path="rom/data/missions/default_natural_disasters"/>
-		<path path="rom/data/missions/default_paths"/>
-		<path path="rom/data/missions/default_resource_trading"/>
-		<path path="rom/data/missions/default_tutorial"/>
-		<path path="rom/data/missions/dlc_weapons_ai"/>
-		<path path="rom/data/missions/default_mission_zones_underwater"/>
-		<path path="rom/data/missions/default_mission_zones_arid"/>
-		<path path="rom/data/missions/default_railroad_signals"/>
 		<path path="rom/data/missions/default_landmarks"/>
-		<path path="rom/data/missions/default_oil_survey"/>
 	</playlists>
 </server_data>
 

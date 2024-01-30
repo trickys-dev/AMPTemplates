@@ -330,6 +330,22 @@
     }
   },
   {
+    "DisplayName": "Enable Space DLC",
+    "Category": "Stormworks - World Creation",
+    "Description": "If set, enables Space DLC content for a new world.",
+    "Keywords": "dlc,space,enabledlc,dlc_space",
+    "FieldName": "dlc_space",
+    "InputType": "checkbox",
+    "IsFlagArgument": false,
+    "ParamFieldName": "/server_data/@dlc_space",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "false",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  },
+  {
     "DisplayName": "Gameplay Settings",
     "Category": "Stormworks - Gameplay",
     "Description": "These settings are for configuring gameplay options for a world. Note that changing them may not update a save game. These settings can also be changed in-game if \"Enable Settings Menu\" under \"Stormworks - World Creation\" is set. If needed, delete the \"working_server\" and \"saves\" directories to generate a new world, or try to edit \"scene.xml\" under each of these folders (untested).",
