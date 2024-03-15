@@ -1,5 +1,6 @@
 Meta.DisplayName=Stormworks
 Meta.Description=Stormworks Dedicated Server
+Meta.AppConfigId=613d471d-c521-4309-977a-b91eed5dfdb9
 Meta.OS=Windows, Linux
 Meta.AarchSupport=NotSupported
 Meta.Arch=x86_64
